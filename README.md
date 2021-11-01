@@ -9,3 +9,9 @@
 - Website For Reach Me And Ask Question : https://Mahdi82Delfani.ir/
 
 - Any Information Project In Our Telegram Channel : https://t.me/Mahdi_Memorial
+
+# Capabilities :
+
+- Supports 4 main operators
+- Power action support
+- Support for tidal action
