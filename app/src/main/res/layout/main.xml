@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="center">
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Join Telegram Channel : @Mahdi_Memorial"
+		android:textSize="20sp"
+		android:textColor="#FFFF0000"
+		android:shadowRadius="1.0"
+		android:shadowDy="1.0"
+		android:shadowDx="1.0"
+		android:shadowColor="#FF000000"/>
+
+	<TextView
+		android:layout_width="340dp"
+		android:layout_height="wrap_content"
+		android:background="#FF99D2CD"
+		android:padding="15dp"
+		android:textSize="25sp"
+		android:textColor="#FF000000"
+		android:elevation="5dp"
+		android:text="0"
+		android:id="@+id/output"
+		android:layout_marginTop="50dp"/>
+
+	<TableLayout
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="15dp">
+
+		<TableRow
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+
+			<Button
+				android:layout_width="65dp"
+				android:layout_height="wrap_content"
+				android:text="7"
+				android:layout_margin="13dp"
+				android:textColor="#FF000000"
+				android:textSize="18sp"
+				android:background="#FFFC82FF"
+				android:id="@+id/num7"/>
+
+			<Button
+				android:layout_width="65dp"
+				android:layout_height="wrap_content"
+				android:text="8"
+				android:layout_margin="13dp"
+				android:textSize="18sp"
+				android:textColor="#FF000000"
+				android:background="#FFFC82FF"
+				android:id="@+id/num8"/>
+
+			<Button
+				android:layout_width="65dp"
+				android:layout_height="wrap_content"
+				android:text="9"
+				android:layout_margin="13dp"
+				android:textSize="18sp"
+				android:textColor="#FF000000"
+				android:background="#FFFC82FF"
+				android:id="@+id/num9"/>
+
+			<Button
+				android:layout_width="65dp"
+				android:layout_height="wrap_content"
+				android:text="Del"
+				android:layout_margin="13dp"
+				android:textSize="24sp"
+				android:textColor="#FF000000"
+				android:background="#FF8DFF95"
+				android:id="@+id/del"/>
+
+		</TableRow>
+
+		<TableRow
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+
+			<Button
+				android:layout_width="65dp"
+				android:layout_height="wrap_content"
+				android:text="4"
+				android:layout_margin="13dp"
+				android:textColor="#FF000000"
+				android:textSize="18sp"
+				android:background="#FFFC82FF"
+				android:id="@+id/num4"/>
+
+			<Button
+				android:layout_width="65dp"
+				android:layout_height="wrap_content"
+				android:text="5"
+				android:layout_margin="13dp"
+				android:textSize="18sp"
+				android:textColor="#FF000000"
+				android:background="#FFFC82FF"
+				android:id="@+id/num5"/>
+
+			<Button
+				android:layout_width="65dp"
+				android:layout_height="wrap_content"
+				android:text="6"
+				android:layout_margin="13dp"
+				android:textSize="18sp"
+				android:textColor="#FF000000"
+				android:background="#FFFC82FF"
+				android:id="@+id/num6"/>
+
+			<Button
+				android:layout_width="65dp"
+				android:layout_height="wrap_content"
+				android:text="+"
+				android:layout_margin="13dp"
+				android:textSize="25sp"
+				android:textColor="#FF000000"
+				android:background="#FF8DFF95"
+				android:id="@+id/plus"/>
+
+		</TableRow>
+
+		<TableRow
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+
+			<Button
+				android:layout_width="65dp"
+				android:layout_height="wrap_content"
+				android:text="1"
+				android:layout_margin="13dp"
+				android:textColor="#FF000000"
+				android:textSize="18sp"
+				android:background="#FFFC82FF"
+				android:id="@+id/num1"/>
+
+			<Button
+				android:layout_width="65dp"
+				android:layout_height="wrap_content"
+				android:text="2"
+				android:layout_margin="13dp"
+				android:textSize="18sp"
+				android:textColor="#FF000000"
+				android:background="#FFFC82FF"
+				android:id="@+id/num2"/>
+
+			<Button
+				android:layout_width="65dp"
+				android:layout_height="wrap_content"
+				android:text="3"
+				android:layout_margin="13dp"
+				android:textSize="18sp"
+				android:textColor="#FF000000"
+				android:background="#FFFC82FF"
+				android:id="@+id/num3"/>
+
+			<Button
+				android:layout_width="65dp"
+				android:layout_height="wrap_content"
+				android:text="-"
+				android:layout_margin="13dp"
+				android:textSize="30sp"
+				android:textColor="#FF000000"
+				android:background="#FF8DFF95"
+				android:id="@+id/minus"/>
+
+		</TableRow>
+
+		<TableRow
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+
+			<Button
+				android:layout_width="65dp"
+				android:layout_height="wrap_content"
+				android:text="÷"
+				android:layout_margin="13dp"
+				android:textColor="#FF000000"
+				android:textSize="25sp"
+				android:background="#FF8DFF95"
+				android:id="@+id/divide"/>
+
+			<Button
+				android:layout_width="65dp"
+				android:layout_height="wrap_content"
+				android:text="0"
+				android:layout_margin="13dp"
+				android:textSize="18sp"
+				android:textColor="#FF000000"
+				android:background="#FFFC82FF"
+				android:id="@+id/num0"/>
+
+			<Button
+				android:layout_width="65dp"
+				android:layout_height="wrap_content"
+				android:text="×"
+				android:layout_margin="13dp"
+				android:textSize="25sp"
+				android:textColor="#FF000000"
+				android:background="#FF8DFF95"
+				android:id="@+id/multi"/>
+
+			<Button
+				android:layout_width="65dp"
+				android:layout_height="wrap_content"
+				android:text="="
+				android:layout_margin="13dp"
+				android:textSize="25sp"
+				android:textColor="#FF000000"
+				android:background="#FF8DFF95"
+				android:id="@+id/equal"/>
+
+		</TableRow>
+
+		<TableRow
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+
+			<Button
+				android:layout_width="65dp"
+				android:layout_height="wrap_content"
+				android:text="Coded"
+				android:layout_margin="13dp"
+				android:textColor="#FF000000"
+				android:textSize="15sp"
+				android:background="#FFD0C768"
+				android:id="@+id/channel"/>
+
+			<Button
+				android:layout_width="65dp"
+				android:layout_height="wrap_content"
+				android:text="Power"
+				android:layout_margin="13dp"
+				android:textSize="15sp"
+				android:textColor="#FF000000"
+				android:background="#FF8DFF95"
+				android:id="@+id/power"/>
+
+			<Button
+				android:layout_width="65dp"
+				android:layout_height="wrap_content"
+				android:layout_margin="13dp"
+				android:textSize="15sp"
+				android:textColor="#FF000000"
+				android:background="#FF8DFF95"
+				android:id="@+id/tide"
+				android:text="Sqrt"/>
+
+			<Button
+				android:layout_width="65dp"
+				android:layout_height="wrap_content"
+				android:text="Mahdi"
+				android:layout_margin="13dp"
+				android:textSize="15sp"
+				android:textColor="#FF000000"
+				android:background="#FFD0C768"/>
+
+		</TableRow>
+
+	</TableLayout>
+
+</LinearLayout>
