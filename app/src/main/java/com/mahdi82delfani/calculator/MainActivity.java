@@ -1,6 +1,6 @@
 // # Copyright © 2021-2022 Mahdi82Delfani.ir
 // # This Project Coded By Mehdi .
-// # Url Download Project : [ https://github.com/Mahdi82Delfani/Simple-Calculator.git ]
+// # Url Download Project : [ https://github.com/Mahdi82Delfani/Calculator.git ]
 // # My Website For Reach Me : [ Mahdi82Delfani.ir ]
 // # Our Telegram Channel For More Information : [ https://t.me/Mahdi_Memorial ]
 
