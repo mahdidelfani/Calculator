@@ -1,6 +1,6 @@
 # Simple-Calculator
 
-- CopyRight 2021-2022 Mahdi82Delfani.ir
+- Copyright © 2021-2022 Mahdi82Delfani.ir
 
 - This Project Just For Run With Aide App .
 
